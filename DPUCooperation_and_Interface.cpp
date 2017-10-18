@@ -205,6 +205,7 @@ void cSPUCooperation_and_Interface::Trigger(double d_TimeMS, double d_TimeErrorM
 		//transition
 		this->state = COOPERATION;
 
+		// hier fehlt was
 		break;	// exit switch, so trigger can go on
 
 	// STOP_AUTOMATION
