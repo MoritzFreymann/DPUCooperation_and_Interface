@@ -27,6 +27,8 @@ bool cSPUCooperation_and_Interface::Prepare()
 	// Cooperation
 	// ==========================================================================================
 
+	// cookie
+
 	// Conection to the Input-Variables of the DPU
 	this->targetSpeed = m_Data.md_TargetSpeed_In;
 	this->decisionTime = m_Data.md_DecisionTime;	// time the driver to make the decision 'reject' or 'accept'
