@@ -85,7 +85,7 @@ bool cSPUCooperation_and_Interface::Prepare()
 	this->laneChange = 0;		// no lane-change
 	this->blinkerStart = 0;		//
 	this->blinkerOn = 0;		// blinker off
-	this->automationEnabled = m_Data.mi_AutomationActive_In;
+	this->automationEnabled = m_Data.mi_AutomationActive_In;	// check this
 
 	// sounds
 	this->playDefaultSound = 0;
