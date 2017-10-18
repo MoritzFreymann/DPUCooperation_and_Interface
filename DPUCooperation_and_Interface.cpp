@@ -85,7 +85,7 @@ bool cSPUCooperation_and_Interface::Prepare()
 	this->laneChange = 0;		// no lane-change
 	this->blinkerStart = 0;		//
 	this->blinkerOn = 0;		// blinker off
-	this->automationEnabled = m_Data.mi_AutomationActive_In;	// check this
+	this->automationEnabled = m_Data.mi_AutomationActive_In;
 
 	// sounds
 	this->playDefaultSound = 0;
@@ -205,7 +205,6 @@ void cSPUCooperation_and_Interface::Trigger(double d_TimeMS, double d_TimeErrorM
 		//transition
 		this->state = COOPERATION;
 
-		// hier fehlt was
 		break;	// exit switch, so trigger can go on
 
 	// STOP_AUTOMATION
